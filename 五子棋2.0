@@ -66,36 +66,7 @@ class Checkerboard:
             y = point.Y - step * y_offset
             if 0 <= x < self._line_points and 0 <= y < self._line_points and self._checkerboard[y][x] == value:
                 count += 1
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class AI:
+   class AI:
     def __init__(self, line_points, chessman):
         self._line_points = line_points
         self._my = chessman
